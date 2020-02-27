@@ -51,7 +51,7 @@ const Formulario = ({ busqueda, setBusqueda, setConsultar }) => {
 
 			<div className='input-field col s12'>
 				<select name='pais' id='pais' value={pais} onChange={handleChange}>
-					<option value=''>-- Selecione un paíss --</option>
+					<option value=''>-- Selecione un país --</option>
 					<option value='EC'>Ecuador</option>
 					<option value='US'>Estados Unidos</option>
 					<option value='MX'>México</option>
